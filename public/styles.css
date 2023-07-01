@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins",sans-serif;
+    color: white;
 }
 body{
     height: 100vh;
@@ -238,7 +239,4 @@ body{
 }
 .create-account p button:hover{
     text-decoration: underline;
-}
-.temp{
-    color: white;
 }
