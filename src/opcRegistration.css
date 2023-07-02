@@ -1,0 +1,25 @@
+.opc-registration{
+    background-color: white;
+}
+.opc-registration .box-container{
+    padding: 10px 5%;
+}
+.opc-registration .box-container h1{
+    color: red;
+    text-align: center;
+    margin: 10px 0px;
+}
+.opc-registration .box-container h2{
+    color: black;
+    margin-bottom: 10px;
+}
+.opc-registration .box-container p{
+    color: black;
+    margin-bottom: 10px;
+}
+.opc-registration .box-container ol li{
+    color: black;
+    margin-left: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

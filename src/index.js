@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import App from "./Components/App"
-import CompanyFormation from './Components/CompanyFormation';
+import App from "./Components/App"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <CompanyFormation/>
+  <App/>
 );
 
 // If you want to start measuring performance in your app, pass a function
