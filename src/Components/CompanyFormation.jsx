@@ -15,13 +15,13 @@ function CompanyFormation(){
                     <NavLink to = "/OpcRegistration"><button>Click here</button></NavLink>
                     <h2>Private Limited Company (PVT LTD) Registration</h2>
                     <p>A private limited company is a company privately held for small businesses. This type of business entity limits owner liability to their shareholdings, the number of shareholders to 200, and restricts shareholders from publicly trading shares. </p>
-                    <button>Click here</button>
+                    <NavLink to = "/PvtLtdRegistration"><button>Click here</button></NavLink>
                     <h2>Limited Liability Parternship (LLP) Registration</h2>
                     <p>Limited liability partnership (LLP) is a type of general partnership where every partner has a limited personal liability for the debts of the partnership. Partners will not be liable for the tortious damages of other partners but potentially for the contractual debts depending on the state. </p>
                     <NavLink to = "/LlpRegistration"><button>Click here</button></NavLink>
                     <h2>Non Governmental Organization (NGO) Registration</h2>
-                    <p>NGO stands for non-governmental organization. While there is no universally agreed-upon definition of an NGO, typically it is a voluntary group or institution with a social mission, which operates independently from the government. NGOs or similar organizations exist in all parts of the world. </p>
-                    <button>Click here</button>
+                    <p>NGO (Non-Government Organisation) is an organization that works for non-profit/ charitable purposes. An NGO established as Section 8 company under the Companies Act, 2013 (‘Act’) is governed by the Ministry of Corporate Affairs ('MCA') whereas the NGO registered as a trust or society is governed by the registrar of state under the State Government. </p>
+                    <NavLink to = "/Section8Registration"><button>Click here</button></NavLink>
 
                 </div>
             </div>

@@ -8,6 +8,8 @@ import CompanyFormation from "./CompanyFormation";
 import CompanyTypes from "./CompanyTypes";
 import Opc from "./Opc";
 import Llp from "./LLP";
+import Pvt from "./Pvt";
+import Ngo from "./Ngo";
 // import Footer from "./Footer"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 function App(){
@@ -23,6 +25,8 @@ function App(){
                 <Route path="/companyTypes" element = {<CompanyTypes/>}/>
                 <Route path="/OpcRegistration" element = {<Opc/>}/>
                 <Route path="/LlpRegistration" element = {<Llp/>}/>
+                <Route path="/PvtLtdRegistration" element = {<Pvt/>}/>
+                <Route path="/Section8Registration" element = {<Ngo/>}/>
             </Routes>
             {/* <Footer/> */}
         </BrowserRouter>
