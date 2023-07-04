@@ -1,9 +1,10 @@
 import React from "react";
 import Login from "./Login";
 import Register from "./Register";
+import "../loginPage.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXing,faFacebook,faTwitter,faYoutube,faInstagram,faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-function Home(){
+function LoginPage(){
     const [currentForm,setCurrentForm] = React.useState("login");
     const toggleForm = (formName)=>{
         setCurrentForm(formName);
@@ -32,4 +33,4 @@ function Home(){
         </div>
     )
 }
-export default Home;
+export default LoginPage;
