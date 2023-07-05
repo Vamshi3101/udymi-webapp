@@ -1,11 +1,11 @@
 import React from "react";
 // import { FiPhone } from "react-icons/fi";
-import ExpertSection from "./ExpertSectionForDPIIT"
+import ExpertSection from "./ExpertSectionForDPIIT";
 
 const RegisterSteps = () => {
   return (
-    <>
-    <div className="py-1 mb-2 mt-2 bg-success text-white text-center ml-10 mr-10"><h3>Welcome to Department for Promotion of Industry and Internal Trade Portal</h3></div>
+    <div className="bg-dark">
+    <div className="py-1 mb-2 bg-success text-white text-center ml-10 mr-10"><h3>Welcome to Department for Promotion of Industry and Internal Trade Portal</h3></div>
     {/* <div className="py-1 ml-10 badge text-bg-primary text-center">Welcome to Department for Promotion of Industry and Internal Trade G2B Portal</div> */}
 <div className="container py-5 bg-dark">
       <h2 className="text-danger  text-center mb-4 text-uppercase">not a registered user?</h2>
@@ -59,7 +59,7 @@ const RegisterSteps = () => {
         </div>
       </div>
     </div>
-    </>
+    </div>
   );
 };
 

@@ -10,7 +10,7 @@ function LoginPage(){
         setCurrentForm(formName);
     }
     return (
-        <div className="container">
+        <div className="conta">
             <div className="item">
                 <h1 className="logo"><FontAwesomeIcon icon={faXing} />Udymi</h1>
                 <div className="text-item">

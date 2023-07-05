@@ -26,7 +26,7 @@ function Register(props){
                     <div className="remember-password">
                         <label for=""><input type="checkbox"/>I agree with this statment</label>
                     </div>
-                    <button className="btn">Login In</button>
+                    <button className="log-btn">Login In</button>
                     <div className="create-account">
                         <p>Already Have An Account? <button onClick={()=>props.onFormSwitch('login')}>Sign In</button></p>
                     </div>

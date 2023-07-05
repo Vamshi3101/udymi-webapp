@@ -20,7 +20,7 @@ function Login(props){
                         <label for=""><input type="checkbox"/>Remember Me</label>
                         <a href="#">Forget Password</a>
                     </div>
-                    <button className="btn">Login In</button>
+                    <button className="log-btn">Login In</button>
                     <div className="create-account">
                         <p>Create A New Account? <button onClick={()=>props.onFormSwitch('register')}>Sign Up</button></p>
                     </div>
