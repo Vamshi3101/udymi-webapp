@@ -1,4 +1,5 @@
 import React from "react";
+import Fileupload from "./Fileupload";
 import "../opcRegistration.css";
 function Opc(){
     return (
@@ -24,6 +25,22 @@ function Opc(){
                     <li>Perpetual succession</li>
                     <p>The OPC has the feature of perpetual succession even when there is only one member. While incorporating the OPC, the single-member needs to appoint a nominee. Upon the member's death, the nominee will run the company in the member's place. </p>
                 </ol>
+                <div className="row text-center bg-secondary-subtle">
+                    <div className="col">
+                    <h2 className="text-danger">Register</h2>
+                    <p className="fw-bold">Pan Card</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Photogroph</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Identity Proof</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Director's Address Proof</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Business Address Proof</p>
+                    <Fileupload/>
+                    <button className="btn btn-success mt-3 mb-2">Pay and Register</button>
+                    </div>
+                </div>
             </div>
         </div>
     )
