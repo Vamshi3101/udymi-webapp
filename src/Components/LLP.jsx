@@ -1,4 +1,5 @@
 import React from "react";
+import Fileupload from "./Fileupload";
 import "../llpRegistration.css";
 function Llp(){
     return (
@@ -24,6 +25,20 @@ function Llp(){
                     <li>DDT not applicable</li>
                     <p>If the partners of LLP withdraw profits from the company, an additional tax liability in the form of DDT is not payable by partners. Whereas, in the case of a company, the owners have to pay DDT @ 15% ( surcharge & educational cess). Hence, profit of LLP is in the hands of its partners can be easily withdrawn by the partners. </p>
                 </ol>
+                <div className="row text-center bg-secondary-subtle">
+                    <div className="col">
+                    <h2 className="text-danger">Register</h2>
+                    <p className="fw-bold">ID Proof</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Address Proof</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Residence Proof</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Photograph</p>
+                    <Fileupload/>
+                    <button className="btn btn-success mt-3 mb-2">Pay and Register</button>
+                    </div>
+                </div>
             </div>
         </div>
     )

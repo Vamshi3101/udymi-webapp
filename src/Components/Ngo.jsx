@@ -1,4 +1,5 @@
 import React from "react";
+import Fileupload from "./Fileupload";
 import "../section8Registration.css";
 function Ngo(){
     return (
@@ -30,6 +31,24 @@ function Ngo(){
                     <li>Membership</li>
                     <p>A registered partnership firm can become a member in it’s individual capacity and obtain Directorship.</p>
                 </ol>
+                <div className="row text-center bg-secondary-subtle">
+                    <div className="col">
+                    <h2 className="text-danger">Register</h2>
+                    <p className="fw-bold">Pan Card</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Identity Proof</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Latest Bank Statement</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Notarized Rental Agreement</p>
+                    <Fileupload/>
+                    <p className="fw-bold">No-Objection Certificate</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Sales/Property Deed</p>
+                    <Fileupload/>
+                    <button className="btn btn-success mt-3 mb-2">Pay and Register</button>
+                    </div>
+                </div>
             </div>
         </div>
     )

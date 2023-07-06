@@ -30,7 +30,7 @@ function Opc(){
                     <h2 className="text-danger">Register</h2>
                     <p className="fw-bold">Pan Card</p>
                     <Fileupload/>
-                    <p className="fw-bold">Photogroph</p>
+                    <p className="fw-bold">Photograph</p>
                     <Fileupload/>
                     <p className="fw-bold">Identity Proof</p>
                     <Fileupload/>

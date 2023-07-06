@@ -1,4 +1,5 @@
 import React from "react";
+import Fileupload from "./Fileupload";
 import "../PvtLtdRegistration.css";
 function Pvt(){
     return (
@@ -18,6 +19,24 @@ function Pvt(){
                     <li>Greater capital contribution and greater stability.</li>
                     <li>Increases the potential to grow big and expand.</li>
                 </ol>
+                <div className="row text-center bg-secondary-subtle">
+                    <div className="col">
+                    <h2 className="text-danger">Register</h2>
+                    <p className="fw-bold">Pan Card</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Identity Proof</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Latest Bank Statement</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Photograph</p>
+                    <Fileupload/>
+                    <p className="fw-bold">No-Objection Certificate</p>
+                    <Fileupload/>
+                    <p className="fw-bold">Sales/Property Deed</p>
+                    <Fileupload/>
+                    <button className="btn btn-success mt-3 mb-2">Pay and Register</button>
+                    </div>
+                </div>
             </div>
         </div>
     )
