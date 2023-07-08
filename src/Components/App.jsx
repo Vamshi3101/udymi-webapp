@@ -12,6 +12,7 @@ import Pvt from "./Pvt";
 import Ngo from "./Ngo";
 import RegisterSteps from "./StartupIndiaAndDPIIT";
 import LoginPage from "./LoginPage"
+import MsmeRegistration from "./MsmeRegistration";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Footer from "./Footer"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
@@ -32,6 +33,7 @@ function App(){
                 <Route path="/Section8Registration" element = {<Ngo/>}/>
                 <Route path="/startup-india-and-Dpiit" element = {<RegisterSteps/>}/>
                 <Route path="/loginPage" element = {<LoginPage/>}/>
+                <Route path="/msme-registration" element = {<MsmeRegistration/>}/>
             </Routes>
             {/* <Footer/> */}
         </BrowserRouter>

@@ -6,7 +6,7 @@ function Fileupload(){
     }
     return (
         <form>
-            <input type="file" name="file" onChange={handleFile} />
+            <input type="file" className="border border-secondary-subtle pt-2 pb-2 px-1" name="file" onChange={handleFile} />
             <br/>
             <button className="btn btn-secondary mt-1 mb-3">Upload</button>
         </form>
