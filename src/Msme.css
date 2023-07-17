@@ -102,3 +102,35 @@
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+@media (max-width:800px){
+  .ol{
+    flex-direction: column;
+  }
+  .A,.hp,.JK,.JM{
+    width: 100%;
+    padding-left: 0px;
+  
+  
+  }
+  .t{
+    font-size: 12px;
+    height: 80%;
+    width: 100%;
+    padding-left: 2px;
+  }
+  .t1{
+    font-size: 16px;
+    height: 80%;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .A{
+    height: 100%;
+    font-size: 30px;
+  }
+  .form-container{
+    height: 100%;
+    width: 100%;
+    padding-left: 80px;
+  }
+  }

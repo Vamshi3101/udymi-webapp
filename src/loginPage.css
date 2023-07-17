@@ -14,9 +14,6 @@
     background-color: black;
 }
 .item{
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 58%;
     height: 100%;
     color: #fff;
