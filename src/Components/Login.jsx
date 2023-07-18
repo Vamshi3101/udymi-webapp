@@ -8,8 +8,10 @@ function Login(props){
                     <h2>Sign In</h2>
                     <div className="input-box">
                         <span className="icon"><FontAwesomeIcon icon={faEnvelope} /></span>
-                        <input type="email" required/>
-                        <label >Email</label>
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" fdprocessedid="mdpbhm"/>
+                            <label for="floatingInput">Email address</label>
+                        </div>
                     </div>
                     <div className="input-box">
                         <span className="icon"><FontAwesomeIcon icon={faLock}/></span>

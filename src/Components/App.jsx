@@ -14,12 +14,14 @@ import RegisterSteps from "./StartupIndiaAndDPIIT";
 import LoginPage from "./LoginPage"
 import MsmeRegistration from "./MsmeRegistration";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ScrollToTop from "./ScrollToTop";
 // import Footer from "./Footer"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 function App(){
     return (
         <BrowserRouter>
             <Header/>
+            <ScrollToTop/>
             <Routes>
                 <Route path = "/" element = {<Home/>}/>
                 <Route path = "/about" element = {<About/>}/>
