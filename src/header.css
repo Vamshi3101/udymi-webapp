@@ -67,3 +67,43 @@
 .search-bar button .fnt-icon{
     font-size: 22px;
 }
+.headerDiv {
+    background-color: black;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 15px 5%;
+    }
+
+    .navlinks {
+        font-size: 14px;
+    }
+
+    .search-bar {
+        width: 50%;
+    }
+
+    .search-bar-btn {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 10px 2%;
+    }
+
+    .navlinks {
+        font-size: 12px;
+    }
+
+    .search-bar {
+        width: 70%;
+    }
+
+    .search-bar-btn {
+        width: 25%;
+    }
+}

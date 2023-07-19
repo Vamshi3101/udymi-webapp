@@ -1,9 +1,7 @@
 import React from "react";
 import Header from "./Header"
 import Home from "./Home"
-import About from "./About"
 import Contact from "./Contact"
-import Help from "./Help"
 import CompanyFormation from "./CompanyFormation";
 import CompanyTypes from "./CompanyTypes";
 import Opc from "./Opc";
@@ -24,9 +22,7 @@ function App(){
             <ScrollToTop/>
             <Routes>
                 <Route path = "/" element = {<Home/>}/>
-                <Route path = "/about" element = {<About/>}/>
                 <Route path = "/contact" element = {<Contact/>}/>
-                <Route path = "/help" element = {<Help/>}/>
                 <Route path="/companyFormation" element = {<CompanyFormation/>}/>
                 <Route path="/companyTypes" element = {<CompanyTypes/>}/>
                 <Route path="/OpcRegistration" element = {<Opc/>}/>

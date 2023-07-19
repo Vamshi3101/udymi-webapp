@@ -10,9 +10,7 @@ function Header(){
             <header className="header">
                 <nav>
                     <NavLink to = "/" className="navlinks">Home</NavLink>
-                    <NavLink to = "/about" className="navlinks">About</NavLink>
                     <NavLink to = "/contact" className="navlinks">Contact</NavLink>
-                    <NavLink to = "/help" className="navlinks">Help</NavLink>
                     <Dropdown/>
                 </nav>
                 <form action="" class="search-bar">
