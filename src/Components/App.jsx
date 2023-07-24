@@ -10,7 +10,7 @@ import Pvt from "./Pvt";
 import Ngo from "./Ngo";
 import RegisterSteps from "./StartupIndiaAndDPIIT";
 import LoginPage from "./LoginPage"
-import MsmeRegistration from "./MsmeRegistration";
+import MsmeRegistration from "./Msme";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ScrollToTop from "./ScrollToTop";
 // import Footer from "./Footer"

@@ -1,0 +1,85 @@
+{
+  "Header": {
+    "title": "A Creative way to grow your Bussiness ",
+    "paragraph": "Register through MSME to avail various benefits by government"
+  },
+  "About": {
+    "paragraph": "The Ministry of Micro, Small and Medium Enterprises is the ministry in the Government of India. It is the apex executive body for the formulation and administration of rules, regulations and laws relating to micro, small and medium enterprises in India. The Minister of Micro, Small and Medium Enterprises is Narayan Rane.The ministry is tasked with the promotion of micro and small enterprises.",
+    "Why": [
+      "PAN card",
+      "Aadhaar card",
+      "Proof of business registration or Incorporation certificate."
+    ],
+    "Why2": [
+      "Address proof of the place of business",
+      "Bank Account statement"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "Img/msme.jpg",
+      "smallImage": "Img/msme.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "Img/msme1.jpg",
+      "smallImage": "Img/msme1.jpg"
+    }, 
+    {
+      "title": "Project Title",
+      "largeImage": "Img/msme3.jpg",
+      "smallImage": "Img/msme3.jpg"
+    }
+   
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-file-pdf-o",
+      "name": "Download pdf",
+      "link": "https://udyamregistration.gov.in/docs/process_msme_regisration_new_pan_Yes.pdf"
+    },
+    {
+      "icon": "fa fa-play",
+      "name": "Watch Video",
+      "link": "https://www.youtube.com/watch?v=-GkTCSeGUic"
+    },
+    {
+      "icon": "fa fa-link",
+      "name": "Official Link for registration",
+      "link": "https://udyamregistration.gov.in/Government-India/Ministry-MSME-registration.htm"
+    }
+    
+  ],
+  
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-rupee",
+      "title": "Collateral-free bank loans",
+      "text": "This program offers financial assurances to micro and small businesses.MSME-registered business benefits from a lower interest rate compared to other enterprises. "
+    },
+    {
+      "icon": "fa fa-certificate",
+      "title": "Subsidy on patent registration",
+      "text": "according to existing regulations, MSMEs registered with the MSME ministry are eligible for a 50% discount on their patent registration costs. "
+    },
+    {
+      "icon": "fa fa-check-square-o",
+      "title": "ISO Certification Charges Reimbursement",
+      "text": "Any registered micro, small and medium enterprise can claim reimbursement of the expenses that were made in order to obtain an ISO certification"
+    },
+    {
+      "icon": "fa fa-lightbulb-o",
+      "title": "Electricity bill concessions",
+      "text": "All businesses with an MSME registration certificate are qualified for electric bill discounts."
+    }
+  ]
+}
