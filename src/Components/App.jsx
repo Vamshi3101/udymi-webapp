@@ -10,7 +10,6 @@ import Pvt from "./Pvt";
 import Ngo from "./Ngo";
 import RegisterSteps from "./StartupIndiaAndDPIIT";
 import LoginPage from "./LoginPage"
-import MsmeRegistration from "./Msme";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ScrollToTop from "./ScrollToTop";
 // import Footer from "./Footer"
@@ -31,7 +30,6 @@ function App(){
                 <Route path="/Section8Registration" element = {<Ngo/>}/>
                 <Route path="/startup-india-and-Dpiit" element = {<RegisterSteps/>}/>
                 <Route path="/loginPage" element = {<LoginPage/>}/>
-                <Route path="/msme-registration" element = {<MsmeRegistration/>}/>
             </Routes>
             {/* <Footer/> */}
         </BrowserRouter>
