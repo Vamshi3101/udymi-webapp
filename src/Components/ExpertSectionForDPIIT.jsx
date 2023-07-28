@@ -2,10 +2,10 @@ import React from "react";
 import { FiPhone } from "react-icons/fi";
 const ExpertSection = () => {
   return (
-    <div className="container py-5 text-light ">
-      <h4 className="text-danger  text-center mb-4 text-uppercase"><u>Documents for startup india regulation</u></h4>
+    <div className="container py-5 text-dark ">
+      <h4 className="text-dark  text-center mb-4 text-uppercase"><u>Documents for startup india regulation</u></h4>
       <h5 className="mb-4  text-center font-weight-bold text-success">How to register a company in startup india?</h5>
-      <h5 className="px-3 text-danger mb-2 text-left"><u>List of required documents</u>:</h5>
+      <h5 className="px-3 text-dark mb-2 text-left"><u>List of required documents</u>:</h5>
       <ul>
         <li>
           Certificate of incorporation
